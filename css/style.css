@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin:0;
+    color:rgb(55, 165, 233);
+    font-family: Myriad Pro;
+}
+
+hr{
+    border-top:solid lightblue;
+    border-bottom:none;
+    margin-left:-10mm;
+}
+textarea{
+    color:black;
+    width:48mm;
+    resize: none;
+    height:18mm;
+    margin-left:2mm;
+}
+
+#zgornji{position:relative;margin-left:15mm;}
+
+#naziv{
+    float:left;
+}
+
+#naslov{
+    margin-top:-30mm;
+    font-size:1.8em ;
+    margin-left:160mm;
+    float:left;
+    font-weight: bold;
+    border-bottom:2px solid lightskyblue;
+}
+#serija{
+    float:left;
+    margin-top:-7mm;
+    margin-left:170mm;
+    
+}
+
+#glavni{
+    margin:0 auto;
+    height:185mm;
+    width:230mm;
+    background-color: rgb(67, 136, 177,0.3);
+}
+
+#zgornji{
+    border:2px solid lightskyblue;
+    position:absolute;
+    background-color:white;
+    height:30mm;
+    width:255mm;
+    margin-top:30px;
+    margin-left:-15mm;
+}
+
+#srednji{
+    margin-top:145px;
+    margin-left:-20mm;
+    width:260mm;
+    height:100mm;
+    position:absolute;
+}
+
+#seznam-1{
+    margin-left:80px;
+    margin-top:15px;
+    display: flex;
+    list-style: none;
+}
+    #četrti-list,#šesti-list,#osmi-list{margin-left:260px;}
+    #drugi-list{margin-left:100mm;}
+
+        input{width:30mm;margin-bottom:1mm;color:black;}
+        #pevi-list-text{ margin-left:8.5mm;}
+        #tretji-list-text{ margin-left:23mm;}
+        #četrti-list-text{ margin-left:29mm;}
+        #peti-list-text{ margin-left:33mm;}
+        #šesti-list-text{ margin-left:33mm;}
+        #sedmi-list-text{ margin-left:35.9mm;}
+        #osmi-list-text{margin-left:2mm;}
+
+
+#tabela{
+    border-top:2px solid lightskyblue;
+    width:276mm;
+    height:50mm;
+    margin-left:-10mm;
+}
+
+    #emptyboy,#zap,#datum,#rel,#rel2,#rel3,#čas,#čas2,#čas3,#stanje1,#stanje2,#skupno,#potniki,#km{
+        float:left;
+        height:10mm;
+        border:2px solid lightskyblue;
+        text-align: center;
+        background-color: white;
+    }
+
+    #emptyboy{width:15mm;border-bottom:none; border-left:none;border-top:none;}
+    #zap{  width:10mm;border-bottom:none;  border-left:none; border-top:none;}
+    #datum{width:14.5mm;border-bottom:none; border-left:none; border-top:none;}
+    #stanje1,#stanje2,#skupno,#potniki,#km{border-bottom:none; width:30mm; height:10mm; border-top:none; border-right:none;}
+    #rel{  width:45mm; height:5mm;border: none;border-bottom:2px solid lightskyblue;border-right:2px solid lightskyblue;}
+        #rel2{
+            float:left;
+            border-top:none;border-right:2px solid lightskyblue;border-left:none;
+            margin-top:-4.1mm;
+            
+            height:4mm;width:22mm;
+        }
+        #rel3{
+            float:left;;
+            border-top:none;border-right:2px solid lightskyblue;border-left:none;
+            margin-top:-4.1mm;
+            margin-left:22.5mm;
+            position:absolute;
+            height:4mm;width:22.4mm;
+        }
+    #čas{width:30.7mm; height:5mm; border-top:none; border-left:none; border-right:none; }
+        #čas2{
+            float:left;
+            border-top:none;border-right:2px solid lightskyblue;border-left:none;
+            margin-top:-4.1mm;
+            height:4mm;width:15mm;
+        }
+        #čas3{
+            float:left;;
+            border-top:none;border-right:2px solid lightskyblue;border-left:2px solid lightskyblue;
+            margin-top:-4.1mm;
+            margin-left:15mm;
+            position:absolute;
+            height:4mm;width:15mm;
+        }
+    #stanje1,#stanje2{width:29.9mm; height:10mm; border-top:none; border-right:none;}
+    #skupno,#potniki,#km{width:30mm; height:10mm; border-top:none; border-right:none;}
+
+        #vsebina{
+            width:276mm;
+            height:40mm;
+            float:left;
+            background-color:white;
+            border-bottom:2px solid lightskyblue;
+            border-top:2px solid lightskyblue;
+        }
+            #vsebina-empty{width:15mm; border-right:2px solid lightskyblue;float:left;height:40mm;}
+            #vsebina-zap{width:10mm; border-right:2px solid lightskyblue;float:left;height:40mm;}
+            #vsebina-datum{width:14.5mm; border-right:2px solid lightskyblue;float:left;height:40mm;}
+            #vsebina-rel1{width:22mm; border-right:2px solid lightskyblue;float:left;height:40mm;}
+            #vsebina-rel2{width:22.4mm; border-right:2px solid lightskyblue;float:left;height:40mm;}
+            #vsebina-čas1,#vsebina-čas2{width:15mm; border-right:2px solid lightskyblue;float:left;height:40mm;}
+            #vsebina-stanje,#vsebina-skupno1,#vsebina-skupno2,#vsebina-potniki{
+            width:30mm; border-right:2px solid lightskyblue;float:left;height:40mm;}
+            #vsebina-km{width:35mm;float:left;}
+
+
+#na{float:left;margin-left:20mm; margin-top:2mm;}
+#dne{float:left;margin-left:85mm; margin-top:2mm;}
+
+
+#spodnji{
+    border:2px solid lightskyblue;
+    background-color:white;
+    height:20mm;
+    width:255mm;
+    position:absolute;
+    margin-top:153mm;
+    margin-left:-15mm;
+}
+
+#priloge{float:left;}
+
+#podpis{
+    margin-right:50px;
+    float:right;
+    margin-top:-4mm;
+}
+
+#zadnji{
+    width:260mm;
+    height:10mm;
+    position:absolute;
+    margin-top:160mm;
+}
+#horizont{margin-left:-40mm;margin-top:10mm;font-size:0.8em; transform: rotate(-90deg);width:26mm;}
+#spodnji-desno{float:left; text-align:center; font-size:0.8em; padding:1.5mm;}
+#ALEA{float:left; margin-left:180px; font-weight:bolder; font-size:1.5em;}
+#DZS{float:left; margin-left:20px;font-size:0.8em; }
+#obrazec{float:left; margin-left:50px;font-weight:bolder; font-size:0.9em}
